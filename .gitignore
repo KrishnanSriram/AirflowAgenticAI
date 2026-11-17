@@ -1,0 +1,20 @@
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Airflow Local Runtime & Artifacts
+airflow_home/logs/
+airflow_home/airflow.db
+airflow_home/airflow.db-shm
+airflow_home/airflow.db-wal
+airflow_home/*.generated
+airflow_home/unittests.cfg
+
+# IDE / OS Specific
+.vscode/
+.DS_Store
+Thumbs.db
